@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #000204;
+}
+
+.content{
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: #126e0f;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    outline: none;
+}
+
+.block {
+    padding: 0px;
+}
+
+.row {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+
+/* ------------ fix ----------- */
+
+.col-md-3 {
+    width: 21%;
+}
+
+.col-md-9 {
+    width: 79%;
+}
+
+.header {
+    height: 40px;
+    background-color: grey;
+}
+
+.logo-text {
+    line-height: 40px;
+    margin: 0px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.logo-text span {
+    font-size: 18px;
+    color: #126e0f;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+
+.form-input_search {
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    height: 35 px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+.input_search {
+    width: 80%;
+    border: none;
+    z-index: -1;
+    line-height: 30px;
+}
+
+.button_search {
+    position: absolute;
+    height: 30px;
+    border: none;
+    width: 30px;
+    top: 0px;
+    right: 0px;
+    background-color: #fff;
+}
+
+.button_search>i {
+    color: yellowgreen;
+}
+
+.clear {
+    clear: both;
+}
+
+.col-left {
+    width: 21%;
+}
+
+.col-right {
+    width: 79%;
+}
+
+/* .menu_control,
+.logout {} */
+
+.div-input_search {
+    padding: 20px;
+}
+
+.menu_control>ul>li,
+.logout>ul>li {
+    font-size: 16px;
+    padding: 10px 0px;
+    color: #126e0f;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(114, 165, 11);
+}
+
+.menu_control>ul>li>a>i,
+.logout>ul>li>a>i {
+    color: #126e0f;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.active>a,
+.active>a>i {
+    color: #fff;
+}
+
+.active>a>i {
+    color: #fff;
+}
+
+.menu_control>ul>li:hover,
+.logout>ul>li:hover {
+    background-color: rgb(114, 165, 11);
+}
+
+
+/* ---- hover ---- */
+
+.menu_control>ul>li:hover>a,
+.logout>ul>li:hover>a {
+    color: #fff;
+}
+
+.menu_control>ul>li:hover>a>i,
+.logout>ul>li:hover>a>i {
+    color: #fff;
+}
+
+
+/* ------------ */
+
+
+
+.section-2{
+    height: 100%;
+}
+
+.list_product{
+    display: none;
+  }
+ .list_category{
+     display: none;
+ } 
+.edit_container{
+    display: none;
+  }

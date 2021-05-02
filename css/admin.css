@@ -1,0 +1,91 @@
+.section-2 {
+  text-align: center;
+}
+
+.list_container {
+  padding: 10px 0 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_search {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.list_search form {
+  flex: 1;
+}
+
+.list_search form input {
+    float: left;
+    width: 70%;
+    height: 35px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn.search{
+    float: left;
+    margin-left: 10px;
+    background-color: #1dbfaf;
+    color: #fff;
+}
+
+.btn.add{
+    color: #333;
+    background-color: #dfd220;
+}
+
+
+.table_list {
+  width: 90%;
+}
+
+th {
+  text-align: center;
+}
+
+.btn_tb {
+  display: block;
+  color: black;
+  width: 100%;
+  margin: 2px 0;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn_tb:hover {
+  opacity: 0.8;
+}
+
+.btn_edit {
+  background-color: #dfd220;
+}
+
+.btn_delete {
+  color: #f8f8f8;
+  background-color: #e22b0a;
+}
+
+
+.img_product{
+  display: block;
+  width: 100%;
+}
+
+.link_product{
+  margin: 5px 0;
+}
+.link_product a{
+  color: #333;
+}
